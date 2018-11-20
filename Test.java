@@ -11,7 +11,7 @@ public class Test
       int mark = BIO.getInt();
       ci101.add( new Student( name, mark ) );
 
-      System.out.print("#Enter student name: ");
+      System.out.print("# Enter student name: ");
       name = BIO.getString();
     }
     System.out.println("Students passing = " + ci101.pass() );
